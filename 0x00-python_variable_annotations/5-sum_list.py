@@ -2,8 +2,9 @@
 """ complext annotation example """
 
 
+from functools import reduce
+
 def sum_list(input_list) -> float:
     """ returns a float sum in list """
 
-    from functools import reduce
-    return float(reduce(lambda x, y: x + y, input_list))
+    return reduce(lambda x, y: x + y, input_list)
