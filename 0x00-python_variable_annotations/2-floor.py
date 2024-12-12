@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-import math
 """ returns floor of a value """
 
+import math 
 
 def floor(n: float) -> int:
     """ returns an int """
