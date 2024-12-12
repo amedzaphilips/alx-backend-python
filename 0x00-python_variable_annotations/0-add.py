@@ -1,2 +1,2 @@
-def(a: float, b: float) -> float:
+def add(a: float, b: float) -> float:
         return a+b
