@@ -4,7 +4,7 @@
 
 from functools import reduce
 
-def sum_list(input_list) -> float:
+def sum_list(input_list: list[float]) -> float:
     """ returns a float sum in list """
 
-    return reduce(lambda x, y: x + y, input_list)
+    return sum(input_list)
