@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-""" complext annotation example """
+""" complex annotation example """
 
 
-from functools import reduce
+from typing import List
 
 def sum_list(input_list: list[float]) -> float:
     """ returns a float sum in list """
